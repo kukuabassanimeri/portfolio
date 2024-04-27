@@ -9,31 +9,14 @@
     <script src="https://kit.fontawesome.com/caeb9ec53e.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="media/Animeri.png" type="image/x-icon"/>
 </head>
 
 <body>
 
-    <!--Header section begins here-->
-   <!-- <header>
-        <div>
-            <ul class="flex items-center space-x-4 pr-5 flex-wrap text-lg font-bond">
-                <li class="flex-1 select-none rounded-full hover:cursor-pointer pl-20"><img src="media/Abass-log.jpg" alt="logo" width="50" height="10"></li>
-                <li class="navlinks hover:text-orange-600"><a href="#home">Home</a></li>
-                <li class="navlinks hover:text-orange-600"><a href="#about">About</a></li>
-                <li class="navlinks hover:text-orange-600"><a href="#work">Portfolio</a></li>
-                <li class="navlinks hover:text-orange-600"><a href="#myskills">Skills</a></li>
-                <li class="navlinks hover:text-orange-600"><a
-                        href="https://drive.google.com/file/d/10D-lxIbFUOUchOydGelhkVbL8Px-PUJx/view?usp=sharing">Resume</a>
-                </li>
-                <li class="navlinks hover:text-orange-600"><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </header> -->
-    <!--Header section ends here-->
-
     <!-- Navigation Menu start here-->
   <nav>
-    <ul class="list-none flex items-center space-x-5 flex-wrap pr-36 text-lg text-white bg-gray-600 h-20 font-bold">
+    <ul class="list-none flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-5 pr-36 text-lg text-white bg-gray-600 font-bold">
         <li class="flex-1 rounded-full hover:cursor-pointer pl-20">
         <a href="https://github.com/kukuabassanimeri" rel="noopener" target="_blank" class="animate-pulse">AK <br>Full-Stack Developer</a></li>
         <li class="animate-pulse navlinks hover:text-orange-600"><a href="#home">Home</a></li>
@@ -49,62 +32,50 @@
 
     <!--Welcome message starts here-->
     <div class="md:grid grid-cols-2 md:gap-x-64 pb-32">
-        <div id="home" class="pl-4 text-black-800 pt-2 pl-2 md:pl-40">
-            <h1 class="text-orange-600  md:text-3xl">Hey, I am </h1>
-            <h1 class="text-xl text-black-600  pt-2 md:text-5xl">Abass Kuku</h1>
-            <p class="text-blue-800  pt-2 text-base md:text-xl">A Junior software developer from <span
-                    class="text-green-600">Nairobi</span></p>
-
-            <div class="pt-5 text-gray-600 text-lg">
-                <p><span class="text-orange-600">Welcome</span> to the digital realm of <span
-                        class="text-orange-600">Abass
-                        Kuku</span> a software development virtuoso who transforms ideas into reality
-                    through the power of codes.</p>
-
-                <p>Delve into my portfolio and embark on a journey through the wonders of software development where
-                    creativity
-                    meets technology, and possibilities are endless. I invite you to explore my projects, discover my skills and witness the magic that unfolds when
-                    passion
-                    meets expertise.</p>
-            </div>
+        <div id="home" class="pl-4 text-black-800 pt-20 pl-2 md:pl-20">
+            <h1 class="text-orange-600  md:text-2xl">Hey everyone   <i class="fa-regular fa-hand text-yellow-400 text-3xl animate-bounce "></i> </h1>
+            <h1 class="text-xl text-black-600 font-bold  pt-2 md:text-5xl">I'm Abass Kuku</h1>
+            <p class="text-blue-800 font-bold pt-2 text-base md:text-xl">A Junior full-stack developer <br>from Nairobi</p>
         </div>
         <div class="pl-4 md:flex justify-end pr-20 pt-20">
-            <img src="media/skills.jpg" alt="image" width="300" class="rounded-full hover:cursor-pointer" id="skills"
-                onmouseover="setNewimage()" onmouseout="setOldimage()">
+            <img src="media/skills.jpg" alt="image" width="300" class="rounded-full hover:cursor-pointer" id="skills" >
         </div>
     </div>
 
     <!--welcome message ends here-->
 
     <!--About start here-->
-    <div id="about">
-        <p class="pl-4 text-lg text-gray-600 md:pl-40">
-            I am a passionate software development student at <span class=" text-green-600">KCAU University</span>.
-            <br>My fascination with technology
-            started with tinkering with basic electronics and grew into a love for building applications that solve
-            real-world problems. <br>I am particularly interested in web development and backend systems. <br>I have
-            basic skills in
-            <span class="text-blue-600">HTML5, CSS, TAILWIND CSS, C++ and JavaScript.</span><br>
-            I am currently working on building a portfolio of projects that showcase my skills and experience. <br>My
-            recent
-            project involved developing a web application to streamline communication within a local organization.<br> I
-            am
-            always eager to learn and collaborate on new projects, and I am excited to see what the future holds in the
-            world of software development. <br>
-            My target languages of interest are: <span class="text-red-600">Python, JavaScript, PHP and C++</span>. I
-            have strong love for being
-            proficient in these languages.<br>
-            Feel free to reach out to me via the contact details provided below.
-        </p>
-        <p class="pl-4 md:text-center pt-4 text-lg text-orange-600">My interest and passion revolves around the following
-            software fields.</p>
-        <div class="pl-4 space-x-10 flex md:pl-40 md:justify-evenly pt-10">
-            <i class="fa-solid fa-laptop-code text-9xl"><figcaption class="text-xs text-lime-600 pt-4">Web Development</figcaption></i>
-            <i class="fa-brands fa-uncharted text-9xl"><figcaption class="text-xs text-orange-600 pt-4" >softwares</figcaption></i>
-            <i class="fa fa-bar-chart text-9xl"><figcaption class="text-xs text-blue-600 pt-4">Data science</figcaption></i>
-            <i class="fas fa-lock text-9xl"><figcaption class="text-xs pt-4">Cyber Security</figcaption></i>
+    <div id="about" class="md:grid grid-cols-2 bg-gray-600 text-white">
 
+        <div class="pl-4 ">
+            <img src="media/skills.jpg" alt="image" width="300" class="rounded-full hover:cursor-pointer" id="skills">
         </div>
+        <div class="pl-4 text-lg pr-20 md:pl-20 pt-16">
+            <p>
+                I am a passionate and dedicated student at KCA University, pursuing a Bachelor's degree in Software Development. <br>I am committed to honing my skills and knowledge in technology.
+                <br>
+                <br>
+                Driven by a thirst for learning, I actively seek out opportunities to expand my understanding of software development principles. Through academic coursework and practical projects, I am gaining valuable experience in various programming languages and emerging technologies.
+                <br>
+                <br>
+                My goal is to leverage my education and experiences to contribute meaningfully to the ever-evolving world of software development. By creating innovative solutions to complex problems and collaborating with like-minded individuals.
+                <br>
+                <br>
+                Thank you for visiting my portfolio, and I invite you to explore my projects and accomplishments to learn more about my capabilities and aspirations.
+            </p>
+            <!--
+            <p class="pl-4 md:text-center pt-4 text-lg text-orange-600">My interest and passion revolves around the following
+                software fields.</p>
+            <div class="pl-4 space-x-10 flex md:pl-20 md:justify-evenly pt-10">
+                <i class="fa-solid fa-laptop-code text-9xl"><figcaption class="text-xs text-lime-600 pt-4">Web Development</figcaption></i>
+                <i class="fa-brands fa-uncharted text-9xl"><figcaption class="text-xs text-orange-600 pt-4" >softwares</figcaption></i>
+                <i class="fa fa-bar-chart text-9xl"><figcaption class="text-xs text-blue-600 pt-4">Data science</figcaption></i>
+                <i class="fas fa-lock text-9xl"><figcaption class="text-xs pt-4">Cyber Security</figcaption></i>
+    
+            </div>
+        -->
+        </div>
+        
     </div>
     <!--about end here-->
 
@@ -116,7 +87,7 @@
     </div>
 
 
-    <div class="grid grid-cols-3 gap-10 pt-5 pl-4 hover:cursor-pointer md:pl-40 md:grid grid-cols-2 md:gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:pr-20 pt-5 pl-4 pr-4 flex-wrape hover:cursor-pointer md:pl-20 md:gap-10">
         <img src="media/Abass.jpg" alt="image" class="w-full aspect-square">
         <img src="media/latjor.webp" alt="image" class="w-full aspect-video">
         <img src="media/Abass.jpg" alt="image" class="w-full aspect-square">
@@ -131,9 +102,9 @@
 
 
     <!--Skills start here-->
-    <div id="myskills">
+    <div id="myskills " class="">
         <div class="md:grid grid-cols-2 md:gap-x-64">
-            <div class="pl-4 pt-5 md:pl-40">
+            <div class="pl-4 pt-5 md:pl-20">
                 <h1 class="text-orange-600 text-lg">Design is more than a passion!</h1>
                 <p class="text-xl font-semibold pt-3 text-blue-800">I actively
                     cultivate my skills, ensuring they not only align with current business trends but anticipate future
@@ -217,8 +188,7 @@
             </div>
 
             <div>
-                <img src="image2.jpg" alt="skills" height="10" width="400" id="image" onmouseover="image1()"
-                    onmouseout="image2()" class="rounded-full pt-10 hover:cursor-pointer pl-4">
+                <img src="media/image2.jpg" alt="skills" height="10" width="400" id="image" class="rounded-full pt-10 hover:cursor-pointer pl-4">
             </div>
         </div>
     </div>
@@ -227,19 +197,12 @@
 
 
     <!--footer section begins-->
-    <footer id="contact" class="bg-ed-800">
-        <div class="pl-4 md:text-center font-bold ">
-        </div>
+    <footer id="contact">
+        
+        <div class="md:grid grid-cols-2 ">
 
-
-        <!--Location information-->
-        <div class="pt-20">
-            <p class="pl-4 md:text-center text-orange-600 text-lg">Connect with me</p>
-            <p class="md:text-center text-gray-600 text-lg pl-4">Please Fill out this form for more information or contact me through the following details</p>
-        </div>
-        <div class="pl-4 md:flex items-center justify-between">
-            <div class="text-xl md:pl-40">
-
+            <div class="text-xl pl-4 md:pl-20">
+                <p>Connect with me</p>
                 <p>
                     <i class="fa-solid fa-location-dot"></i>
                     <span class="font-bond text-2xl">Address:</span>
@@ -258,7 +221,8 @@
             </div>
 
             <!--form starts-->
-            <div class="pr-20 pt-5 text-lg">
+            <div class="pr-20 pt-5 text-lg pl-4">
+                <p>Please Fill out this form for more information or contact me through the following details</p>
                 <form>
                     <p class="text-gray-600">Firstname:</p>
                     <p><input type="text" name="firstname" size="50" class="rounded" style="width: 400px;"
@@ -287,14 +251,14 @@
         <!--Location information ends-->
 
         <!--remote connection starts-->
-        <div class="pl-4 text-gray-600 text-lg md:pl-40">
+        <div class="pl-4 text-gray-600 text-lg md:pl-20">
             <p>Do you want to connect with me remotely? <br>Do not hesitate to click any of the links below</p>
         </div>
 
-        <div class="text-gray-600 pl-4 pt-5 md:pl-40 md:text-red-600 md:text-lg md:pt-5">
+        <div class="text-gray-600 pl-4 pt-5 md:pl-20 md:text-red-600 md:text-lg md:pt-5">
             <p>My social links</p>
         </div>
-        <div class="pl-4 text-blue-400 space-x-4 pt-3 md:pl-40 md:text-2xl md:text-blue-400 md:space-x-6">
+        <div class="pl-4 text-blue-400 space-x-4 pt-3 md:pl-20 md:text-2xl md:text-blue-400 md:space-x-6">
             <a href="https://www.facebook.com/profile.php?id=100085325694633"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://github.com/kukuabassanimeri"><i class="fa-brands fa-github"></i></a>
             <a href="https://twitter.com/kuku_abass"><i class="fa-brands fa-twitter"></i></a>
@@ -304,53 +268,52 @@
                     class="fa-brands fa-instagram"></i></a>
 
         </div>
-
-        <!--remote connection ends-->
+     <!--remote connection ends here-->
 
         <!--location starts-->
-        <div class="pl-4 md:pl-96 pt-20">
+        
+        <!-- <div class="pl-4 md:pl-96 pt-20">
             <p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.979021631356!2d36.861560440568944!3d-1.2476766634975425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f143332740441%3A0x5bf4fa9b22608278!2sRuaraka%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1704835015804!5m2!1sen!2ske"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </p>
+        </div> -->
+    
+        <!-- Location starts -->
+<div class="pl-4 md:pl-20 pr-4 pt-20">
+    <div class="max-w-4xl mx-auto">
+        <div class="aspect-w-16 aspect-h-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.979021631356!2d36.861560440568944!3d-1.2476766634975425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f143332740441%3A0x5bf4fa9b22608278!2sRuaraka%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1704835015804!5m2!1sen!2ske" 
+                    class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
+    </div>
+</div>
+<!-- Location ends -->
+
         <!--location ends-->
 
-        <!--copyright starts-->
-        <div class="md:text-gray-600">
-            <p class="text-center pt-36 text-lg">Copyright © 2024 All Rights Reserved | <br>This Portfolio was design
-                with <i class="fas fa-heart text-blue-600"></i> by <span class="text-orange-600">Abass Kuku
-                    Animeri</span><br><span class="text-green-600">Full-stack Enthusiast</span></p>
-        </div>
-        <!--copyright ends-->
 
-        <!--To top starts-->
-        <div class="text-right text-3xl pr-3 text-blue-600 md:justify-items-end md:text-3xl md:text-right md:pr-4">
-            <a href="#"><i class="fa-solid fa-arrow-up"></i>
+        <!--copyright starts-->
+        <div class=" bg-gray-600 mt-10 pb-10">
+            <div class="md:text-white">
+                <p class="text-center pt-16 text-lg">Copyright © 2024 All Rights Reserved | <br>This Portfolio was design
+                    with <i class="fas fa-heart text-blue-600"></i> by <span>Abass Kuku
+                        Animeri</span><br><span>Full-stack Enthusiast</span></p>
+            </div>
+            <!--copyright ends-->
+    
+            <!--To top starts-->
+            <div class="text-right text-3xl pr-3 text-white md:justify-items-end md:text-3xl md:text-right md:pr-4 ">
+                <a href="#"><i class="fa-solid fa-arrow-up"></i>
+            </div>
+            <!--To top ends-->
         </div>
-        <!--To top ends-->
+        
     </footer>
     <!--Footer section ends-->
 </body>
 
 </html>
-
-<script type="text/javascript">
-    function setNewimage() {
-        document.getElementById("skills").src = "media/kuku.jpg";
-    }
-
-    function setOldimage() {
-        document.getElementById("skills").src = "media/skills.jpg";
-    }
-
-    function image1() {
-        document.getElementById("image").src = "media/image1.jpg";
-    }
-
-    function image2() {
-        document.getElementById("image").src = "media/image2.jpg";
-    }
-</script>
