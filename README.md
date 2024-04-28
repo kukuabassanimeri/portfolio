@@ -36,4 +36,6 @@
 ##Appreciation
 - Thank you for taking the time to review my portfolio!
 - Your feedback and suggestions are highly appreciated and valued.
-- Feel free to reach out to me via email or social media if you have any questions or would like to discuss potential opportunities.
+- Feel free to reach out to me via email or phone call if you have any questions or would like to discuss potential opportunities.
+- Email: abasskuku319@gmail.com
+- Phone: +254115207210
