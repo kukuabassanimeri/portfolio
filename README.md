@@ -2,9 +2,9 @@
 - This is a portfolio website showcasing the work and skills of Abass Kuku Animeri, a junior full-stack developer from Nairobi, Kenya.
 
 ##Navigation Menu
-The navigation menu allows easy navigation through different sections of the portfolio. It includes links to the following sections:
+- The navigation menu allows easy navigation through different sections of the portfolio. It includes links to the following sections:
 
-Home
+- Home
 - About
 - Projects
 - Skills
