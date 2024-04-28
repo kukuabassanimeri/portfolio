@@ -4,13 +4,5 @@
     font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
-@media (max-width:600px){
-    .navlinks{
-        /*display: none;*/
-        text-align: center;
-        width: 100%;
-    }
-    .active{
-        display: block;
-    }
-}
+
+
