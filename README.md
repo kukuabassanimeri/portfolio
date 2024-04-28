@@ -32,3 +32,8 @@
 
 ##Copyright
 - The portfolio website is protected by copyright and was designed with love by Abass Kuku Animeri, a full-stack enthusiast.
+
+##Appreciation
+- Thank you for taking the time to review my portfolio!
+- Your feedback and suggestions are highly appreciated and valued.
+- Feel free to reach out to me via email or social media if you have any questions or would like to discuss potential opportunities.
